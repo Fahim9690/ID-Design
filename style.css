@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: wrap;
+    background: #fff;
+   
+}
+.padding{
+    /* overflow: hidden; */
+}
+.font{
+    height: 400px;
+    width: 250px;
+    position: relative; 
+    border-radius: 10px ;  
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px ;
+}
+.top{
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(137, 165, 241), rgb(9, 168, 189));
+    /* position: absolute; */
+    /* z-index: 5; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.top img{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    left: 75px;
+}
+.contant{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    line-height: 1.5;
+}
+.img img{
+    width: 105px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    margin-left: 35px;
+  
+}
+.img{
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 15px;
+}
+.icon{
+    flex-direction: row;
+    margin-top: 50px;
+}
+.icon span{
+    box-sizing: border-box;
+}
+.icon span .fa-instagram{
+    color: rgba(160, 81, 45, 0.685);
+    font-size: 1.5rem;
+}
+.icon span .fa-facebook{
+    color: rgba(62, 62, 224, 0.747);
+    font-size: 1.5rem;
+}
+.icon span .fa-whatsapp{
+    color: green;
+    font-size: 1.5rem;
+}
